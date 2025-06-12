@@ -441,18 +441,23 @@
     <ResourceCompile Include="..\sample.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\DatabaseManager.cpp" />
     <ClCompile Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\LibraryFrame.cpp" />
     <ClCompile Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\main.cpp" />
+    <ClCompile Include="bookdialog.cpp" />
+    <ClCompile Include="BorrowDialog.cpp" />
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="ReturnDialog.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\Book.h" />
     <ClInclude Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\BorrowRecord.h" />
-    <ClInclude Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\Databasemanager.h" />
     <ClInclude Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\LibraryFrame.h" />
-    <ClInclude Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\Student.h" />
     <ClInclude Include="bookdialog.h" />
+    <ClInclude Include="books.h" />
+    <ClInclude Include="BorrowDialog.h" />
+    <ClInclude Include="Database.h" />
+    <ClInclude Include="ReturnDialog.h" />
     <ClInclude Include="StudentDialog.h" />
+    <ClInclude Include="students.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

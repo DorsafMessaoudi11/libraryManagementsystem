@@ -19,33 +19,48 @@
     <ClCompile Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\DatabaseManager.cpp">
+    <ClCompile Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\LibraryFrame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\LibraryFrame.cpp">
+    <ClCompile Include="BorrowDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bookdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\Book.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\BorrowRecord.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\Databasemanager.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\LibraryFrame.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Users\islem\OneDrive\Bureau\librarymangementsystem1\Librarymangementsystem1\Student.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="bookdialog.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="StudentDialog.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BorrowDialog.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnDialog.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="books.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="students.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>
